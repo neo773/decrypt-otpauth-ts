@@ -29,7 +29,7 @@ npm run build
 
 To decrypt a backup file:
 ```bash
-node dist/index.js decrypt-backup --encrypted-otpauth-backup <path-to-your-backup.otpauthdb>
+node dist/cli.js decrypt-backup --encrypted-otpauth-backup <path-to-your-backup.otpauthdb>
 ```
 
 The tool will:
