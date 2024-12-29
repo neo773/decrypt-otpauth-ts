@@ -26,7 +26,17 @@ npm run build
 ```
 
 ## Usage
+### Library
+```typescript
+import * as fs from "fs/promises";
+import { Decryptor } from "decrypt-otpauth-ts/dist/decryptor";
 
+const dbBuffer = await fs.readFile(dbPath);
+const dbPassword = "yourpassword";
+const tokens = await Decryptor.decryptBackup(dbBuffer, dbPassword);
+```
+
+### CLI
 To decrypt a backup file:
 ```bash
 node dist/cli.js decrypt-backup --encrypted-otpauth-backup <path-to-your-backup.otpauthdb>
