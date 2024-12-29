@@ -128,7 +128,7 @@ export class Decryptor {
     const decryptedData = rncryptor.Decrypt(wrappedData, password);
 
     if (!decryptedData) {
-      throw new Error("Failed to decrypt data");
+      throw new Error("Failed to decrypt data: Invalid password");
     }
 
     // Parse the inner bplist
