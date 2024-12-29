@@ -4,8 +4,7 @@
   "description": "TypeScript version of decrypt-otpauth-files",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "build": "tsc"
   },
   "dependencies": {
     "base32-encode": "^2.0.0",
