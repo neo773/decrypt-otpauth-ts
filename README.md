@@ -1,6 +1,6 @@
 # decrypt-otpauth-ts
 
-TypeScript version of the OTP Auth file decryption tool. This tool allows for decrypting the encrypted backups files created by [OTP Auth for iOS](http://cooperrs.de/otpauth.html).
+TypeScript version of the OTP Auth file [decryption tool](https://github.com/CooperRS/decrypt-otpauth-files). This tool allows for decrypting the encrypted backups files created by [OTP Auth for iOS](http://cooperrs.de/otpauth.html).
 
 ## Requirements
 
